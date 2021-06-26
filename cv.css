@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEEEEE;
+    color:#EEEEEE ;
+    line-height: 1.5;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color: #00ADB5 ;
+}
+.clearb{
+    clear: both;
+}
+.hr{
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+    border: solid #EEEEEE 2px;
+    border-radius: 3px;
+}
+.common-hr{
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+    border: solid #EEEEEE 1px;
+    border-radius: 3px;
+}
+
+
+/* ------------------------
+    header section
+---------------------------*/
+.content{
+
+    width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #393E46;
+
+}
+
+/* image Start.............*/
+
+.image{
+    height: 240px;
+    width: 265px;
+    border: 3px solid #EEEEEE;
+    border-radius: 50%;
+    float: left;
+    opacity: 1;
+}
+/* image end...............*/
+
+
+
+/* name Start.............*/
+
+.name{
+    padding: 30px;
+    margin-top: 50px;
+    float: left;
+}
+
+/* name end...............*/
+
+
+
+/* Contact Start.............*/
+.contact{
+    margin-top: 60px;
+    float: right;
+    font-weight: bolder;
+}
+.contact p a{
+    text-decoration: none;
+    color: #00ADB5;
+}
+
+.contact p a:hover{
+    text-decoration: overline;
+    color: #EEEEEE;
+}
+
+/* Contact end...............*/
+
+
+/* ------------------------
+    main section
+---------------------------*/
+
+/* left Side.............. */
+.left_side{
+    float: left;
+    width: 30%;
+}
+/* end left Side.............. */
+
+
+
+/* right Side.............. */
+.right_side{
+    float: left;
+    width: 70%;
+    text-align: justify;
+}
+
+.right_side ul{
+    list-style-type: none;
+}
+
+.right_side li::before{
+    margin: 10px;
+    content: '\f058';
+    font-family: 'Font Awesome 5 Free';
+    display: inline-block;
+}
+/* end right Side.............. */
+
+
+/* in right side ..............*/
+.l{
+    line-height: 1.5;
+    float: left;
+    width: 20%;
+}
+
+.r{
+    float: left;
+    line-height: 1.5;
+    width: 50%;
+}
+
+.l1{
+    float: left;
+    width: 45%;
+}
+
+.r1{
+    float: right ;
+    width: 45%;
+}
+
+.l3{
+    float: left;
+    width: 45%;
+}
+
+/* in right side end..............*/
+
+
+
+/* ------------------------
+    footer section
+---------------------------*/
+
+.foot{
+    background-color: #00ADB5;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.foot p{
+    font-weight: bolder;
+    color: #EEEEEE;
+    margin-top: 20px;
+}
+.foot a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-weight: bolder;
+    margin: 20px;
+}
+.foot a:hover{
+    text-decoration: underline;
+    color: #393E46;
+    font-weight: bolder;
+}
